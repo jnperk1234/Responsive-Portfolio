@@ -1,0 +1,54 @@
+/*Global Layout for index*/
+body {
+    box-sizing: border-box;
+     }
+
+body {
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     font-family: 'Poppins', sans-serif;
+     color: #222;
+     background-color: rgb(243, 235, 224);
+   }
+
+   /*nav bar background for index*/
+   .navbar-default{
+       background-color: #F353EC;
+       overflow: hidden;
+       border-bottom: 5px solid 70FFFA;
+       opacity: 65%;
+    }
+    
+    
+    /* Style the links inside the navigation bar */
+    .navbar-default a {
+        float: center;
+        color: #FEF2FE;
+        text-align: center;
+        padding: 35px 35px;
+        text-decoration: none;
+        font-size: 15px;
+        border: #78D6D2;
+        
+    }
+    
+    
+    /* Change the color of links on hover */
+    .navbar-default a:hover {
+        background-color: #F695F2;
+        color: FEF2FE;
+    }
+
+    .jumbotron {
+        background-color: #F353EC;
+    }
+
+    @media screen and (max-width: 760px) { 
+		.col{
+			float: none;
+			margin:0;
+			width: 100%;
+		}
+
+   
